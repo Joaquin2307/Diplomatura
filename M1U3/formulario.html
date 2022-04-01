@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <p>
+                <label for="nom">Nombre de la empresa</label>
+                <input type="text" name="nombre">
+            </p>
+            <p>
+                <label for="correo">Correo de contacto</label>
+                <input type="text" name="correo">
+            </p>
+            <p>
+                <label for="turno">Turno</label>
+                <select name="turno" >
+                    <option value="mañana">mañana</option>
+                    <option value="tarde">tarde</option>
+                </select>
+            </p>
+            <label >Tiempo</label>
+            <ul>
+                <li>
+                    <input type="checkbox" name="tiempo" value="full" id="full">
+                    <label for="full">Full Time</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="tiempo" value="part" id="part">
+                    <label for="part">Part Time</label>
+                </li>
+            </ul>
+            <p>
+                <input type="submit" value="enviar"/>
+                <input type="reset" value="borrar"/>
+            </p>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
