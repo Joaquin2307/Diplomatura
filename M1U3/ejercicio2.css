@@ -1,0 +1,26 @@
+div {
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    margin: 6%;
+    padding: 5px;
+    border: 2px;
+}
+
+html {
+    background-color: #F32C02;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+span {
+    font-weight: bold;
+    color: #991F05;
+    font-style: italic;
+}
+
+h2 {
+    color: #F67256;
+}
