@@ -1,14 +1,16 @@
 div {
     background-color: black;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 0px;
     color: white;
     margin: 6%;
     padding: 5px;
     border: 2px;
+    box-shadow: -10px 10px 10px black;
 }
 
 html {
-    background-color: #F32C02;
+  background-color: #BF1B1B;
+    
 }
 
 h1 {
@@ -22,5 +24,9 @@ span {
 }
 
 h2 {
-    color: #F67256;
+    color: #A73219;
+}
+img{
+    border: 2px solid ;
+    margin: 10px;
 }
