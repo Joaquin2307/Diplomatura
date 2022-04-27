@@ -1,0 +1,19 @@
+.contenedor{
+    margin-right: 5px;
+    margin-left: 5px ;
+    display: inline-flex;
+    border: 2px solid black;
+    height: 200px;
+    width: 99%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.item{
+    margin: 0px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
