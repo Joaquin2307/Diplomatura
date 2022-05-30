@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio2</title>
+    <script>type = "text/javascript"</script>
+</head>
+
+<body>
+    <script>
+var num1;
+        var num2;    
+        var num3;
+        var num4;
+        var num5;
+
+        num1= prompt("ingrese los numeros a comparar", " ");
+        num2= prompt("ingrese los numeros a comparar", " ");
+        num3= prompt("ingrese los numeros a comparar", " ");
+        num4= prompt("ingrese los numeros a comparar", " ");
+        num5= prompt("ingrese los numeros a comparar", " ");
+        var numeros = [num1, num2, num3, num4, num5];
+        
+        var mayor = 0;
+        for (var i = 0; i < numeros.length; i++ ) {
+
+            if (numeros[i] > mayor) {
+                mayor = numeros[i];
+            }
+        }   
+        document.write("el numero ma alto es " + mayor);
+console.log (mayor);
+       
+    </script>
+</body>
+
+</html>

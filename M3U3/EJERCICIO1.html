@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio1</title>
+    <script>type = "text/javascript"
+    </script>
+</head>
+
+<body>
+    <script>
+        var distancia;
+
+        distancia = prompt("ingrese la distancia a recorrer ", "");
+
+        switch (true) {
+            case distancia > 0 && distancia <= 1000: document.write("debe ir a pie");
+                break;
+            case distancia > 1000 && distancia <= 10000: document.write("debe ir en bicicleta");
+                break;
+            case distancia > 10000 && distancia <= 30000: document.write("debe ir en colectivo");
+                break;
+            case distancia > 30000 && distancia <= 100000: document.write("debe ir en auto");
+                break;
+            case distancia > 100000: document.write("debe ir en avion");
+                break;
+        }
+    </script>
+</body>
+
+</html>
