@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>ejercicio1</title>
+    <script> type = "text/javascript" </script>
+</head>
+
+<body id="todo">
+    <div id="rojo" onclick="primeracaja();">ROJO </div>;
+    <div id="negro" onclick="segundacaja();">NEGRO</div>;
+    <DIV id="azul" onclick="terceracaja();">AZUL</DIV>;
+
+
+    <script>
+        var primeracaja = document.getElementById("rojo");
+        var segundacaja = document.getElementById("negro");
+        var terceracaja = document.getElementById("azul");
+        var todo = document.getElementById("todo")
+
+        primeracaja.onclick = function (cambio) {
+            todo.style.backgroundColor = "#EC0D1A";
+        };
+
+        segundacaja.onclick = function (cambio) {
+            todo.style.backgroundColor = "#0A0909 ";
+        };
+
+        terceracaja.onclick = function (cambio) {
+            todo.style.backgroundColor = "#1053C2 ";
+        };
+
+        
+
+
+
+    </script>
+</body>
+
+</html>
