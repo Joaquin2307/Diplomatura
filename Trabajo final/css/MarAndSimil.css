@@ -152,8 +152,17 @@ border-top: 3px solid #137296;
 /* fin novedades */
  
 /* inicio productos */
-/* .foot{
+
+.galeria{
     position: relative;
-    top: 500px;
-    width: 100%;
-} */
+    top: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.galeria img{
+    width: 20%;
+    padding: 4px;
+    margin: 4px;
+}
+/* fin productos */
