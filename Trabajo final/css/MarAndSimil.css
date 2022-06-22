@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     line-height: 25px;
 }
+
 /* inicio home */
 header {
     background-color: #44B9D3;
@@ -11,6 +12,7 @@ header {
     width: 100%;
     z-index: 1000;
     top: 0%;
+    margin-bottom: 10%;
 }
 
 header h1 {
@@ -34,7 +36,6 @@ nav {
     position: fixed;
     top: 8%;
     left: 33%;
-   
 }
 
 nav ul {
@@ -80,8 +81,7 @@ nav ul li a.activo {
     max-width: 960px;
     margin: 0 0 0 0;
 }
-
-main  #bienvenidos {
+main #bienvenidos {
     margin: 5px;
     text-align: center;
     color: #44B9D3;
@@ -121,7 +121,7 @@ main #lista {
     position: relative;
     text-align: left;
     top: 50px;
-    left: 5%;   
+    left: 5%;
 }
 textarea {
     resize: none;
@@ -131,7 +131,7 @@ textarea {
 
 /* inicio novedades */
 .nov {
-color: #137296;
+    color: #137296;
 font-size: 50px ;
 position: relative;
 top: 200px;
