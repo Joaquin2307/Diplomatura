@@ -80,6 +80,7 @@ nav ul li a.activo {
 .holder {
     max-width: 960px;
     margin: 0 0 0 0;
+    overflow: hidden;
 }
 main #bienvenidos {
     margin: 5px;
