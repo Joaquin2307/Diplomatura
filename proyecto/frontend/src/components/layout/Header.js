@@ -4,7 +4,7 @@ const Header = (props)=> {
     <div class="holder">
       <img src="imagenes/logo.png" alt="MaraAndSimil" />
       <h1>MarAndSimil</h1>
-      <nav>
+      {/* <nav>
         <ul>
           <li><a class="activo" href="index.html">Home</a></li>
           <li><a href="quienessomos.html">Quienes Somos</a></li>
@@ -13,7 +13,7 @@ const Header = (props)=> {
           <li><a href="pyme.html">Home</a></li>
           <li><a href="contacto.html">Contacto</a></li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   </header>
     );

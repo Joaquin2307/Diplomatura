@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+}
+
+header img {
+    width: 15%;
+    height: 15%;
+}
+footer {
+    position: relative;
+    top: 600px;
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}

@@ -6,7 +6,7 @@ const Nav = (props) =>{
             <div>
                 <ul>
                     <li><Link to="/">Home</Link> </li>
-                    <li><Link to="/nosotros">Nosotros</Link> </li>
+                    <li><Link to="/contacto">Contacto</Link> </li>
                     <li><Link to="/galeria">Galeria</Link> </li>
                 </ul>
             </div>

@@ -33,7 +33,7 @@ const HomePage = (props) =>{
           </button>
         </div>
         <div>
-          <H2 id="bienvenidos">Bienvenidos</H2>
+          <h2 id="bienvenidos">Bienvenidos</h2>
           <p id="textobienvenidos">Pyme familiar dedicada al calzado,  vendemos productos de alta calidad de goma o pvc. Suelas de seguridad, planchas, ojotas, y mucha mas variedad mirar el catalogo para mas informacion a cerca de los productos.</p>
         </div>
       </main>
