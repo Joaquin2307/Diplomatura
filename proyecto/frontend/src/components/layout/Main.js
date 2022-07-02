@@ -1,3 +1,5 @@
+// import "../../styles/HomePage.css"
+
 const Main = (props) => {
     return(
         <main class="holder">

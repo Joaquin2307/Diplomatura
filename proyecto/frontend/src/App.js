@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 import Galeria from "./pages/Galeria";
 import Nav from "./components/layout/Nav";
 // import "./MarAndSimil.css"
-import "./prueba.css"
+import "./styles/HomePage.css"
 
 function App() {
   return (
