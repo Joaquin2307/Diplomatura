@@ -29,6 +29,8 @@ nav {
     position: fixed;
     top: 8%;
     left: 33%;
+    background-color: red;
+    z-index: 200px;
 }
 
 nav ul {
@@ -37,6 +39,8 @@ nav ul {
     padding: 0px;
     display: flex;
     justify-content: space-evenly;
+
+
 }
 
 nav ul li {

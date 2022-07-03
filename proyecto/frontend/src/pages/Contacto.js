@@ -2,7 +2,7 @@ import"../styles/Contacto.css"
 
 const Contacto = (props) => {
     return(
-<main class="holder">
+<main claclassNamess="holder">
     <div id="lista">
       <h2>Contactanos</h2>
       <ul id="contacto">
@@ -10,15 +10,15 @@ const Contacto = (props) => {
         <li>Facebook: MarAndSimil</li>
       </ul>
       <p>Para contactarnos via mail:</p>
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"/>
+      <div className="mb-3">
+        <label for="exampleFormControlInput1" className="form-label">Email </label>
+        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com"/>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      <div className="mb-3">
+        <label for="exampleFormControlTextarea1" className="form-label">Mensaje</label>
+        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="submit" class="btn btn-primary">Enviar</button>
+      <button type="submit" className="btn btn-primary">Enviar</button>
     </div>
   </main>
     );

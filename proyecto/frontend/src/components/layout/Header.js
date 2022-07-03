@@ -3,7 +3,7 @@
 const Header = (props)=> {
     return (
         <header>
-    <div class="holder">
+    <div className="holder">
       <img src="imagenes/logo.png" alt="MaraAndSimil" />
       <h1>MarAndSimil</h1>
 
